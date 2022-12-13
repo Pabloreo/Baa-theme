@@ -52,6 +52,17 @@
     {% if template contains 'product' %}
     <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
     {% endif %}
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2GC1M3LCK"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-P2GC1M3LCK');
+    </script>
+
 </head>
 
 <body class="template-{{ request.page_type | handle }} {% unless template contains 'index' or template contains 'collection' or template.suffix == 'about-us' %}has-shadow{% endunless %}">
