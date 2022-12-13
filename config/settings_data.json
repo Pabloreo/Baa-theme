@@ -246,7 +246,7 @@
     "countdown_bg": "#f1dfd6",
     "color_footer_middle": "#ffffff",
     "color_title_footer_middle": "#1e1e1e",
-    "color_bg_footer_middle": "#191919",
+    "color_bg_footer_middle": "#f7b39a",
     "color_footer_bottom": "#787878",
     "color_bg_footer_bottom": "#ffffff",
     "color_product_vendor": "#a0a0a0",
@@ -402,6 +402,7 @@
           },
           "1586508970414": {
             "type": "navigation_list",
+            "disabled": true,
             "settings": {
               "style_width": 19,
               "title": "Shop",
@@ -410,6 +411,7 @@
           },
           "1586509011399": {
             "type": "navigation_list",
+            "disabled": true,
             "settings": {
               "style_width": 19,
               "title": "About us",
@@ -418,6 +420,7 @@
           },
           "1594201369803": {
             "type": "navigation_list",
+            "disabled": true,
             "settings": {
               "style_width": 19,
               "title": "Customer care",
@@ -426,6 +429,7 @@
           },
           "1594201730156": {
             "type": "social",
+            "disabled": true,
             "settings": {
               "style_width": 18,
               "title": "Follow us",
